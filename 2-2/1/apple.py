@@ -1,9 +1,8 @@
-print(Numeber of cars:)
+print('Numeber of cars:')
 NumberOfCars = input()
 
-print(Numeber of buses:)
+print('Numeber of buses:')
 NumberOfBuses = input()
 
-print('Number of vehicles: ' + str(NumberOfCars) + str(NumberOfBuses))
-
-
+SumOfVehicles = int(NumberOfCars)+int(NumberOfBuses)
+print('Number of vehicles: ' + str(SumOfVehicles))
