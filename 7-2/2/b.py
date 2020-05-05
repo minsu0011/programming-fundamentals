@@ -1,0 +1,5 @@
+a,b=input().split()
+a=int(a)
+b=float(b)
+print('%10d%10d%10d'%(a * 2, a * 4, a * 8))
+print('%10.2f%10.2f%10.2f'%(b * 2, b * 4, b * 8))
