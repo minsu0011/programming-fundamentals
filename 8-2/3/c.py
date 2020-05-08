@@ -1,0 +1,9 @@
+def pivo (n) :
+    if(n==0):
+        return 0
+    if(n==1):
+        return 1
+    return pivo(n-1)+pivo(n-2)
+n=input()
+n=int(n)
+print(str(pivo(n)))
