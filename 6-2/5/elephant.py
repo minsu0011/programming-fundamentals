@@ -4,9 +4,9 @@ b = int(b)
 c = int(c)
 if (a <= b and a <= c) :
     min = a
-    elif(b <= a and b <= c) :
+elif(b <= a and b <= c) :
     min = b
-    elif(c <= b and c <= a) :
+elif(c <= b and c <= a) :
     min = c;
 if (a >= b and a >= c) :
     max = a;
